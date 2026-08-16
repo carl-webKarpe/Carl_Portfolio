@@ -130,7 +130,7 @@
   /* ------------------------------------------------------------------
      TOOLS MARQUEE (built + duplicated for seamless infinite loop)
   ------------------------------------------------------------------ */
-  const tools = ['PHOTOSHOP', 'ILLUSTRATOR', 'FIGMA', 'CANVA', 'ADOBE XD', 'HTML', 'CSS', 'JAVASCRIPT'];
+  const tools = ['PHOTOSHOP', 'ILLUSTRATOR', 'FIGMA', 'CANVA', 'ADOBE XD',];
   const track = document.getElementById('marqueeTrack');
   if (track) {
     const buildSet = () => tools.map(t => `<span class="marquee-item">${t}<span class="sep">•</span></span>`).join('');
